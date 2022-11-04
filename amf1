@@ -1,0 +1,678 @@
+@INSTANCE@
+@PID_DIRECTORY@
+@MCC@
+@MNC@
+@REGION_ID@
+@AMF_SET_ID@
+@SERVED_GUAMI_MCC_0@
+@SERVED_GUAMI_MNC_0@
+@SERVED_GUAMI_REGION_ID_0@
+@SERVED_GUAMI_AMF_SET_ID_0@
+@SERVED_GUAMI_MCC_1@
+@SERVED_GUAMI_MNC_1@
+@SERVED_GUAMI_REGION_ID_1@
+@SERVED_GUAMI_AMF_SET_ID_1@
+@PLMN_SUPPORT_MCC@
+@PLMN_SUPPORT_MNC@
+@PLMN_SUPPORT_TAC@
+@SST_0@
+@SD_0@
+@SST_1@
+@SD_1@
+@SST_2@
+@SD_2@
+@AMF_INTERFACE_NAME_FOR_NGAP@
+@AMF_INTERFACE_NAME_FOR_N11@
+@SMF_INSTANCE_ID_0@
+@SMF_IPV4_ADDR_0@
+@SMF_HTTP_VERSION_0@
+@SMF_FQDN_0@
+@SMF_INSTANCE_ID_1@
+@SMF_IPV4_ADDR_1@
+@SMF_HTTP_VERSION_1@
+@SMF_FQDN_1@
+@NRF_IPV4_ADDRESS@
+@NRF_PORT@
+@NRF_API_VERSION@
+@NRF_FQDN@
+@AUSF_IPV4_ADDRESS@
+@AUSF_PORT@
+@AUSF_API_VERSION@
+@AUSF_FQDN@
+@UDM_IPV4_ADDRESS@
+@UDM_PORT@
+@UDM_FQDN@
+@NSSF_IPV4_ADDRESS@
+@NSSF_PORT@
+@NSSF_API_VERSION@
+@NSSF_FQDN@
+@NF_REGISTRATION@
+@NRF_SELECTION@
+@EXTERNAL_NRF@
+@SMF_SELECTION@
+@EXTERNAL_AUSF@
+@EXTERNAL_UDM@
+@EXTERNAL_NSSF@
+@USE_FQDN_DNS@
+@USE_HTTP2@
+@MYSQL_SERVER@
+@MYSQL_USER@
+@MYSQL_PASS@
+@MYSQL_DB@
+@INT_ALGO_LIST@
+@CIPH_ALGO_LIST@
+Now setting these variables '@AMF_INTERFACE_NAME_FOR_N11@ @AMF_INTERFACE_NAME_FOR_NGAP@ @AMF_SET_ID@ @AUSF_API_VERSION@ @AUSF_FQDN@ @AUSF_IPV4_ADDRESS@ @AUSF_PORT@ @CIPH_ALGO_LIST@ @EXTERNAL_AUSF@ @EXTERNAL_NRF@ @EXTERNAL_NSSF@ @EXTERNAL_UDM@ @INSTANCE@ @INT_ALGO_LIST@ @MCC@ @MNC@ @MYSQL_DB@ @MYSQL_PASS@ @MYSQL_SERVER@ @MYSQL_USER@ @NF_REGISTRATION@ @NRF_API_VERSION@ @NRF_FQDN@ @NRF_IPV4_ADDRESS@ @NRF_PORT@ @NRF_SELECTION@ @NSSF_API_VERSION@ @NSSF_FQDN@ @NSSF_IPV4_ADDRESS@ @NSSF_PORT@ @PID_DIRECTORY@ @PLMN_SUPPORT_MCC@ @PLMN_SUPPORT_MNC@ @PLMN_SUPPORT_TAC@ @REGION_ID@ @SD_0@ @SD_1@ @SD_2@ @SERVED_GUAMI_AMF_SET_ID_0@ @SERVED_GUAMI_AMF_SET_ID_1@ @SERVED_GUAMI_MCC_0@ @SERVED_GUAMI_MCC_1@ @SERVED_GUAMI_MNC_0@ @SERVED_GUAMI_MNC_1@ @SERVED_GUAMI_REGION_ID_0@ @SERVED_GUAMI_REGION_ID_1@ @SMF_FQDN_0@ @SMF_FQDN_1@ @SMF_HTTP_VERSION_0@ @SMF_HTTP_VERSION_1@ @SMF_INSTANCE_ID_0@ @SMF_INSTANCE_ID_1@ @SMF_IPV4_ADDR_0@ @SMF_IPV4_ADDR_1@ @SMF_SELECTION@ @SST_0@ @SST_1@ @SST_2@ @UDM_FQDN@ @UDM_IPV4_ADDRESS@ @UDM_PORT@ @USE_FQDN_DNS@ @USE_HTTP2@'
+Done setting the configuration
+[2022-11-04T11:46:37.969032] [AMF] [amf_app] [start] Options parsed!
+[2022-11-04T11:46:37.969110] [AMF] [amf_app] [debug] 
+Load AMF system configuration file(/openair-amf/etc/amf.conf)
+[2022-11-04T11:46:37.969530] [AMF] [amf_app] [debug] Resolving a DNS (name oai-nrf)
+[2022-11-04T11:46:37.969541] [AMF] [amf_app] [debug] Resolving DNS Try #0
+[2022-11-04T11:46:37.970224] [AMF] [amf_app] [debug] Resolved a DNS (name oai-nrf, protocol http): Ip Addr 192.168.70.130, port 80
+[2022-11-04T11:46:37.970248] [AMF] [amf_app] [debug] Resolving a DNS (name oai-ausf)
+[2022-11-04T11:46:37.970252] [AMF] [amf_app] [debug] Resolving DNS Try #0
+[2022-11-04T11:46:37.970379] [AMF] [amf_app] [debug] Resolved a DNS (name oai-ausf, protocol http): Ip Addr 192.168.70.138, port 80
+[2022-11-04T11:46:37.970447] [AMF] [config ] [info ] ==== OAI-CN5G AMF vBranch: HEAD Abrev. Hash: ee09cb41 Date: Tue Sep 20 20:41:27 2022 +0000 ====
+[2022-11-04T11:46:37.970450] [AMF] [config ] [info ] ======================    AMF   =====================
+[2022-11-04T11:46:37.970452] [AMF] [config ] [info ] Configuration AMF:
+[2022-11-04T11:46:37.970453] [AMF] [config ] [info ] - Instance ................: 0
+[2022-11-04T11:46:37.970454] [AMF] [config ] [info ] - PID dir .................: /var/run
+[2022-11-04T11:46:37.970455] [AMF] [config ] [info ] - AMF NAME.................: OAI-AMF
+[2022-11-04T11:46:37.970456] [AMF] [config ] [info ] - GUAMI (MCC, MNC, Region ID, AMF Set ID, AMF pointer): 
+[2022-11-04T11:46:37.970458] [AMF] [config ] [info ]     (001, 01, 128, 1, 1)
+[2022-11-04T11:46:37.970459] [AMF] [config ] [info ] - Served Guami List:
+[2022-11-04T11:46:37.970461] [AMF] [config ] [info ]     (001, 01, 128 , 1, 0)
+[2022-11-04T11:46:37.970463] [AMF] [config ] [info ]     (460, 11, 10 , 1, 1)
+[2022-11-04T11:46:37.970464] [AMF] [config ] [info ] - Relative Capacity .......: 30
+[2022-11-04T11:46:37.970465] [AMF] [config ] [info ] - PLMN Support: 
+[2022-11-04T11:46:37.970467] [AMF] [config ] [info ]     MCC, MNC ..............: 001, 01
+[2022-11-04T11:46:37.970468] [AMF] [config ] [info ]     TAC ...................: 1
+[2022-11-04T11:46:37.970469] [AMF] [config ] [info ]     Slice Support .........:
+[2022-11-04T11:46:37.970471] [AMF] [config ] [info ]         SST, SD ...........: 1, 1 (0x1)
+[2022-11-04T11:46:37.970472] [AMF] [config ] [info ]         SST ...............: 1
+[2022-11-04T11:46:37.970473] [AMF] [config ] [info ]         SST, SD ...........: 130, 130 (0x82)
+[2022-11-04T11:46:37.970475] [AMF] [config ] [info ] - Emergency Support .......: false
+[2022-11-04T11:46:37.970476] [AMF] [config ] [info ] - Database: 
+[2022-11-04T11:46:37.970477] [AMF] [config ] [info ]     MySQL Server Addr .....: 192.168.70.131
+[2022-11-04T11:46:37.970478] [AMF] [config ] [info ]     MySQL user ............: root
+[2022-11-04T11:46:37.970480] [AMF] [config ] [info ]     MySQL pass ............: linux
+[2022-11-04T11:46:37.970482] [AMF] [config ] [info ]     MySQL DB ..............: oai_db
+[2022-11-04T11:46:37.970483] [AMF] [config ] [info ] - N2 Networking:
+[2022-11-04T11:46:37.970484] [AMF] [config ] [info ]     Iface .................: eth0
+[2022-11-04T11:46:37.970486] [AMF] [config ] [info ]     IP Addr ...............: 192.168.70.132
+[2022-11-04T11:46:37.970487] [AMF] [config ] [info ]     Port ..................: 38412
+[2022-11-04T11:46:37.970488] [AMF] [config ] [info ] - SBI Networking:
+[2022-11-04T11:46:37.970489] [AMF] [config ] [info ]     Iface .................: eth0
+[2022-11-04T11:46:37.970491] [AMF] [config ] [info ]     IP Addr ...............: 192.168.70.132
+[2022-11-04T11:46:37.970492] [AMF] [config ] [info ]     Port ..................: 80
+[2022-11-04T11:46:37.970494] [AMF] [config ] [info ]     HTTP2 port ............: 8080
+[2022-11-04T11:46:37.970495] [AMF] [config ] [info ]     API version............: v1
+[2022-11-04T11:46:37.970496] [AMF] [config ] [info ] - NRF:
+[2022-11-04T11:46:37.970498] [AMF] [config ] [info ]     IP Addr ...............: 192.168.70.130
+[2022-11-04T11:46:37.970499] [AMF] [config ] [info ]     Port ..................: 80
+[2022-11-04T11:46:37.970501] [AMF] [config ] [info ]     API version ...........: v1
+[2022-11-04T11:46:37.970502] [AMF] [config ] [info ] - AUSF:
+[2022-11-04T11:46:37.970503] [AMF] [config ] [info ]     IP Addr ...............: 192.168.70.138
+[2022-11-04T11:46:37.970505] [AMF] [config ] [info ]     Port ..................: 80
+[2022-11-04T11:46:37.970506] [AMF] [config ] [info ]     API version ...........: v1
+[2022-11-04T11:46:37.970507] [AMF] [config ] [info ] - Supported Features:
+[2022-11-04T11:46:37.970508] [AMF] [config ] [info ]     NF Registration .......: Yes
+[2022-11-04T11:46:37.970509] [AMF] [config ] [info ]     NRF Selection .........: No
+[2022-11-04T11:46:37.970510] [AMF] [config ] [info ]     SMF Selection .........: Yes
+[2022-11-04T11:46:37.970512] [AMF] [config ] [info ]     External NRF ..........: Yes
+[2022-11-04T11:46:37.970513] [AMF] [config ] [info ]     External AUSF .........: Yes
+[2022-11-04T11:46:37.970514] [AMF] [config ] [info ]     External UDM ..........: No
+[2022-11-04T11:46:37.970515] [AMF] [config ] [info ]     External NSSF .........: No
+[2022-11-04T11:46:37.970516] [AMF] [config ] [info ]     Use FQDN ..............: Yes
+[2022-11-04T11:46:37.970517] [AMF] [config ] [info ]     Use HTTP2..............: No
+[2022-11-04T11:46:37.970518] [AMF] [amf_app] [debug] 
+Load AMF module configuration file (/openair-amf/etc/amf.conf)
+[2022-11-04T11:46:37.970781] [AMF] [config ] [info ] ============    AMF Registered Modules   ============
+[2022-11-04T11:46:37.970785] [AMF] [config ] [info ] NGAP Message Modules:
+[2022-11-04T11:46:37.970787] [AMF] [config ] [info ] - NGSetupRequest(Procedure code 21, Type of Msg 1)
+
+[2022-11-04T11:46:37.970791] [AMF] [itti   ] [start] Starting...
+[2022-11-04T11:46:37.970953] [AMF] [itti   ] [start] Started
+[2022-11-04T11:46:37.970959] [AMF] [itti   ] [info ] Starting timer_manager_task
+[2022-11-04T11:46:37.970980] [AMF] [amf_app] [start] Creating AMF application functionality layer
+[2022-11-04T11:46:37.970981] [AMF] [itti   ] [warn ] Could not set schedparam to ITTI task 0, err=1
+[2022-11-04T11:46:37.973457] [AMF] [amf_n1 ] [start] amf_n1 started
+[2022-11-04T11:46:37.973471] [AMF] [sctp   ] [debug] creating socket!!
+[2022-11-04T11:46:37.973503] [AMF] [sctp   ] [debug] getaddrinfo on 192.168.70.132 was OK
+[2022-11-04T11:46:37.973579] [AMF] [sctp   ] [info ] Created socket (3)
+[2022-11-04T11:46:37.973672] [AMF] [ngap   ] [info ] Set N2 AMF IPv4 Addr 192.168.70.132, port 38412
+[2022-11-04T11:46:37.973676] [AMF] [sctp   ] [info ] Create pthread to receive sctp message
+[2022-11-04T11:46:37.974807] [AMF] [amf_n2 ] [start] amf_n2 started
+[2022-11-04T11:46:37.975951] [AMF] [amf_sbi] [start] amf_sbi started
+[2022-11-04T11:46:37.975982] [AMF] [amf_app] [debug] NF instance info
+[2022-11-04T11:46:37.975985] [AMF] [amf_app] [debug] 	Instance ID: 2949aa61-40c1-4ea5-9bac-c4507dd6deea
+[2022-11-04T11:46:37.975987] [AMF] [amf_app] [debug] 	Instance name: OAI-AMF
+[2022-11-04T11:46:37.975988] [AMF] [amf_app] [debug] 	Instance type: AMF
+[2022-11-04T11:46:37.975990] [AMF] [amf_app] [debug] 	Status: REGISTERED
+[2022-11-04T11:46:37.975991] [AMF] [amf_app] [debug] 	HeartBeat timer: 50
+[2022-11-04T11:46:37.975992] [AMF] [amf_app] [debug] 	Priority: 1
+[2022-11-04T11:46:37.975994] [AMF] [amf_app] [debug] 	Capacity: 100
+[2022-11-04T11:46:37.975995] [AMF] [amf_app] [debug] 	IPv4 Addr:
+[2022-11-04T11:46:37.975997] [AMF] [amf_app] [debug] 		 192.168.70.132
+[2022-11-04T11:46:37.975998] [AMF] [amf_app] [debug] 	NF Service
+[2022-11-04T11:46:37.976025] [AMF] [amf_app] [debug] 		Service Instance ID: namf_communication, Service name: namf_communication, Version (apiVersionInUri: v1, apiFullVersion: 1.0.0 ), Scheme: http, Service status: REGISTERED,  IpEndPoints: Ipv4 Address: 192.168.70.132, TransportProtocol: TCP, Port: 80
+[2022-11-04T11:46:37.976031] [AMF] [amf_app] [debug] 	AMF Info
+[2022-11-04T11:46:37.976033] [AMF] [amf_app] [debug] 		AMF Set ID: 1, AMF Region ID: 128
+[2022-11-04T11:46:37.976034] [AMF] [amf_app] [debug] 		AMF GUAMI List, AMF_ID: 128:1:0
+[2022-11-04T11:46:37.976036] [AMF] [amf_app] [debug] 		AMF GUAMI List, PLMN (MCC: 001, MNC: 01)
+[2022-11-04T11:46:37.976037] [AMF] [amf_app] [debug] 		AMF GUAMI List, AMF_ID: 10:1:1
+[2022-11-04T11:46:37.976039] [AMF] [amf_app] [debug] 		AMF GUAMI List, PLMN (MCC: 460, MNC: 11)
+[2022-11-04T11:46:37.976043] [AMF] [amf_app] [debug] Send ITTI msg to SBI task to trigger the registration request to NRF
+[2022-11-04T11:46:37.976062] [AMF] [amf_sbi] [debug] Send NF Instance Registration to NRF (HTTP version 1)
+[2022-11-04T11:46:37.976252] [AMF] [amf_app] [debug] AMF profile to json:
+ {"amfInfo":{"amfRegionId":"128","amfSetId":"1","guamiList":[{"amfId":"128:1:0","plmnId":{"mcc":"001","mnc":"01"}},{"amfId":"10:1:1","plmnId":{"mcc":"460","mnc":"11"}}]},"capacity":100,"custom_info":null,"heartBeatTimer":50,"ipv4Addresses":["192.168.70.132"],"nfInstanceId":"2949aa61-40c1-4ea5-9bac-c4507dd6deea","nfInstanceName":"OAI-AMF","nfServices":[{"ipEndPoints":[{"ipv4Address":"192.168.70.132","port":80,"transport":"TCP"}],"nfServiceStatus":"REGISTERED","scheme":"http","serviceInstanceId":"namf_communication","serviceName":"namf_communication","versions":[{"apiFullVersion":"1.0.0","apiVersionInUri":"v1"}]}],"nfStatus":"REGISTERED","nfType":"AMF","priority":1,"sNssais":[]}
+[2022-11-04T11:46:37.976273] [AMF] [amf_sbi] [debug] Send NF Instance Registration to NRF, NRF URL 192.168.70.130:80/nnrf-nfm/v1/nf-instances/2949aa61-40c1-4ea5-9bac-c4507dd6deea
+[2022-11-04T11:46:37.976295] [AMF] [amf_sbi] [debug] Send NF Instance Registration to NRF, msg body: 
+ {"amfInfo":{"amfRegionId":"128","amfSetId":"1","guamiList":[{"amfId":"128:1:0","plmnId":{"mcc":"001","mnc":"01"}},{"amfId":"10:1:1","plmnId":{"mcc":"460","mnc":"11"}}]},"capacity":100,"custom_info":null,"heartBeatTimer":50,"ipv4Addresses":["192.168.70.132"],"nfInstanceId":"2949aa61-40c1-4ea5-9bac-c4507dd6deea","nfInstanceName":"OAI-AMF","nfServices":[{"ipEndPoints":[{"ipv4Address":"192.168.70.132","port":80,"transport":"TCP"}],"nfServiceStatus":"REGISTERED","scheme":"http","serviceInstanceId":"namf_communication","serviceName":"namf_communication","versions":[{"apiFullVersion":"1.0.0","apiVersionInUri":"v1"}]}],"nfStatus":"REGISTERED","nfType":"AMF","priority":1,"sNssais":[]}
+[2022-11-04T11:46:37.976308] [AMF] [amf_sbi] [info ] Send HTTP message to 192.168.70.130:80/nnrf-nfm/v1/nf-instances/2949aa61-40c1-4ea5-9bac-c4507dd6deea
+[2022-11-04T11:46:37.976310] [AMF] [amf_sbi] [info ] HTTP message Body: {"amfInfo":{"amfRegionId":"128","amfSetId":"1","guamiList":[{"amfId":"128:1:0","plmnId":{"mcc":"001","mnc":"01"}},{"amfId":"10:1:1","plmnId":{"mcc":"460","mnc":"11"}}]},"capacity":100,"custom_info":null,"heartBeatTimer":50,"ipv4Addresses":["192.168.70.132"],"nfInstanceId":"2949aa61-40c1-4ea5-9bac-c4507dd6deea","nfInstanceName":"OAI-AMF","nfServices":[{"ipEndPoints":[{"ipv4Address":"192.168.70.132","port":80,"transport":"TCP"}],"nfServiceStatus":"REGISTERED","scheme":"http","serviceInstanceId":"namf_communication","serviceName":"namf_communication","versions":[{"apiFullVersion":"1.0.0","apiVersionInUri":"v1"}]}],"nfStatus":"REGISTERED","nfType":"AMF","priority":1,"sNssais":[]}
+[2022-11-04T11:46:37.977182] [AMF] [amf_sbi] [info ] Get response with HTTP code (201)
+[2022-11-04T11:46:37.977268] [AMF] [amf_sbi] [info ] Get response with Json content: {"amfInfo":{"amfRegionId":"128","amfSetId":"1","guamiList":[{"amfId":"128:1:0","plmnId":{"mcc":"001","mnc":"01"}},{"amfId":"10:1:1","plmnId":{"mcc":"460","mnc":"11"}}]},"capacity":100,"heartBeatTimer":10,"ipv4Addresses":["192.168.70.132"],"json_data":null,"nfInstanceId":"2949aa61-40c1-4ea5-9bac-c4507dd6deea","nfInstanceName":"OAI-AMF","nfServices":[{"ipEndPoints":[{"ipv4Address":"192.168.70.132","port":80,"transport":""}],"nfServiceStatus":"REGISTERED","scheme":"http","serviceInstanceId":"namf_communication","serviceName":"namf_communication","versions":[{"apiFullVersion":"1.0.0","apiVersionInUri":"v1"}]}],"nfStatus":"REGISTERED","nfType":"AMF","priority":1}
+[2022-11-04T11:46:37.977325] [AMF] [amf_sbi] [debug] NF Registration, response from NRF, json data: 
+ {"amfInfo":{"amfRegionId":"128","amfSetId":"1","guamiList":[{"amfId":"128:1:0","plmnId":{"mcc":"001","mnc":"01"}},{"amfId":"10:1:1","plmnId":{"mcc":"460","mnc":"11"}}]},"capacity":100,"heartBeatTimer":10,"ipv4Addresses":["192.168.70.132"],"json_data":null,"nfInstanceId":"2949aa61-40c1-4ea5-9bac-c4507dd6deea","nfInstanceName":"OAI-AMF","nfServices":[{"ipEndPoints":[{"ipv4Address":"192.168.70.132","port":80,"transport":""}],"nfServiceStatus":"REGISTERED","scheme":"http","serviceInstanceId":"namf_communication","serviceName":"namf_communication","versions":[{"apiFullVersion":"1.0.0","apiVersionInUri":"v1"}]}],"nfStatus":"REGISTERED","nfType":"AMF","priority":1}
+[2022-11-04T11:46:37.977339] [AMF] [amf_sbi] [debug] NFRegistration, got successful response from NRF
+[2022-11-04T11:46:37.977377] [AMF] [amf_app] [debug] Delete AMF Profile instance...
+[2022-11-04T11:46:37.977394] [AMF] [amf_app] [start] Started timer (1)
+[2022-11-04T11:46:37.977397] [AMF] [amf_app] [info ] Initiating all registered modules
+[2022-11-04T11:46:37.977399] [AMF] [amf_app] [debug] Initiating AMF server endpoints
+[2022-11-04T11:46:37.977771] [AMF] [amf_server] [debug] Initiate AMF Server Endpoints done!
+[2022-11-04T11:46:37.977776] [AMF] [amf_server] [debug] AMF handler for AMFConfigurationApiImpl
+[2022-11-04T11:46:37.977778] [AMF] [amf_server] [debug] AMF handler for IndividualSubscriptionDocumentApiImpl
+[2022-11-04T11:46:37.977779] [AMF] [amf_server] [debug] AMF handler for IndividualSubscriptionDocumentApiImpl
+[2022-11-04T11:46:37.977780] [AMF] [amf_server] [debug] AMF handler for IndividualUeContextDocumentApiImpl
+[2022-11-04T11:46:37.977782] [AMF] [amf_server] [debug] AMF handler for N1N2IndividualSubscriptionDocumentApiImpl
+[2022-11-04T11:46:37.977784] [AMF] [amf_server] [debug] AMF handler for N1N2MessageCollectionDocumentApiImpl
+[2022-11-04T11:46:37.977785] [AMF] [amf_server] [debug] AMF handler for N1N2SubscriptionsCollectionForIndividualUEContextsDocumentApiImpl
+[2022-11-04T11:46:37.977787] [AMF] [amf_server] [debug] AMF handler for NonUEN2MessageNotificationIndividualSubscriptionDocumentApiImpl
+[2022-11-04T11:46:37.977788] [AMF] [amf_server] [debug] AMF handler for NonUEN2MessagesCollectionDocumentApiImpl
+[2022-11-04T11:46:37.977790] [AMF] [amf_server] [debug] AMF handler for NonUEN2MessagesSubscriptionsCollectionDocumentApiImpl
+[2022-11-04T11:46:37.977791] [AMF] [amf_server] [debug] AMF handler for SubscriptionsCollectionDocumentApiImpl
+[2022-11-04T11:46:37.977792] [AMF] [amf_server] [debug] AMF handler for SubscriptionsCollectionDocumentApiImplEventExposure
+[2022-11-04T11:46:37.977794] [AMF] [amf_server] [debug] AMF handler for N1MessageNotifyApiImpl
+[2022-11-04T11:46:37.977983] [AMF] [amf_server] [info ] HTTP2 server started
+[2022-11-04T11:46:57.977570] [AMF] [amf_app] [info ] 
+[2022-11-04T11:46:57.977592] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:46:57.977594] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:46:57.977596] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:46:57.977597] [AMF] [amf_app] [info ] |      -      |          -       |           -           |           -          |               -                |
+[2022-11-04T11:46:57.977598] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:46:57.977599] [AMF] [amf_app] [info ] 
+[2022-11-04T11:46:57.977600] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:46:57.977601] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:46:57.977602] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:46:57.977603] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:46:57.977604] [AMF] [amf_app] [info ] 
+[2022-11-04T11:47:17.977803] [AMF] [amf_app] [info ] 
+[2022-11-04T11:47:17.977835] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:17.977841] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:47:17.977845] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:47:17.977849] [AMF] [amf_app] [info ] |      -      |          -       |           -           |           -          |               -                |
+[2022-11-04T11:47:17.977852] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:17.977856] [AMF] [amf_app] [info ] 
+[2022-11-04T11:47:17.977859] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:17.977863] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:47:17.977866] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:47:17.977870] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:17.977874] [AMF] [amf_app] [info ] 
+[2022-11-04T11:47:37.978051] [AMF] [amf_app] [info ] 
+[2022-11-04T11:47:37.978083] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:37.978089] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:47:37.978093] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:47:37.978097] [AMF] [amf_app] [info ] |      -      |          -       |           -           |           -          |               -                |
+[2022-11-04T11:47:37.978100] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:37.978104] [AMF] [amf_app] [info ] 
+[2022-11-04T11:47:37.978107] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:37.978111] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:47:37.978115] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:47:37.978118] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:37.978122] [AMF] [amf_app] [info ] 
+[2022-11-04T11:47:41.548692] [AMF] [sctp   ] [debug] SCTP Association Change event received
+[2022-11-04T11:47:41.548737] [AMF] [sctp   ] [debug] Add new association with id (225)
+[2022-11-04T11:47:41.548769] [AMF] [sctp   ] [info ] ----------------------
+[2022-11-04T11:47:41.548772] [AMF] [sctp   ] [info ] Local addresses:
+[2022-11-04T11:47:41.548776] [AMF] [sctp   ] [info ]     - IPv4 Addr: 192.168.70.132
+[2022-11-04T11:47:41.548784] [AMF] [sctp   ] [info ] ----------------------
+[2022-11-04T11:47:41.548787] [AMF] [sctp   ] [info ] Peer addresses:
+[2022-11-04T11:47:41.548789] [AMF] [sctp   ] [info ]     - IPv4 Addr: 192.168.70.141
+[2022-11-04T11:47:41.548790] [AMF] [sctp   ] [info ] ----------------------
+[2022-11-04T11:47:41.548792] [AMF] [ngap   ] [debug] Ready to handle new NGAP SCTP association request (id 225)
+[2022-11-04T11:47:41.548796] [AMF] [ngap   ] [debug] Create a new gNB context with assoc_id (225)
+[2022-11-04T11:47:41.548808] [AMF] [sctp   ] [info ] ****[Assoc_id 225, Socket 23] Received a msg (length 66) from port 47930, on stream 0, PPID 60 ****
+[2022-11-04T11:47:41.548823] [AMF] [ngap   ] [debug] Handling SCTP payload from SCTP Server on assoc_id (225), stream_id (0), instreams (2), outstreams (2)
+[2022-11-04T11:47:41.548931] [AMF] [ngap   ] [debug] Decoded NGAP message, procedure code 21, present 1
+[2022-11-04T11:47:41.549176] [AMF] [ngap   ] [debug] Sending ITTI NG Setup Request message to TASK_AMF_N2
+[2022-11-04T11:47:41.549567] [AMF] [ngap   ] [debug] Received TAC 0x1
+[2022-11-04T11:47:41.549607] [AMF] [amf_n2 ] [info ] Received NGSetupRequest message, handling
+[2022-11-04T11:47:41.549626] [AMF] [amf_n2 ] [debug] Handle NG Setup Request...
+[2022-11-04T11:47:41.549629] [AMF] [amf_n2 ] [debug] Parameters: assoc_id 225, stream 0
+[2022-11-04T11:47:41.549632] [AMF] [amf_n2 ] [debug] Update gNB context with assoc id (225)
+[2022-11-04T11:47:41.549644] [AMF] [amf_n2 ] [debug] RAN Node Info, Global RAN Node ID: 0xe000, MCC 001, MNC 01
+[2022-11-04T11:47:41.549648] [AMF] [amf_n2 ] [debug] IE RanNodeName: gnb-rfsim1
+[2022-11-04T11:47:41.549650] [AMF] [amf_n2 ] [debug] IE DefaultPagingDRX: 0
+[2022-11-04T11:47:41.549691] [AMF] [amf_n2 ] [debug] TAC configured 1, TAC received 1
+[2022-11-04T11:47:41.549696] [AMF] [amf_n2 ] [debug] Common PLMN MCC 001, MNC 01
+[2022-11-04T11:47:41.549698] [AMF] [amf_n2 ] [debug] S-NSSAI from gNB (SST 1, SD 1)
+[2022-11-04T11:47:41.549699] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 1, SD 1)
+[2022-11-04T11:47:41.549703] [AMF] [amf_n2 ] [debug] Common S-NSSAI (SST 1, SD 1)
+[2022-11-04T11:47:41.549705] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 1, SD 16777215)
+[2022-11-04T11:47:41.549707] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 130, SD 130)
+[2022-11-04T11:47:41.549710] [AMF] [amf_n2 ] [debug] S-NSSAI from gNB (SST 1, SD 2)
+[2022-11-04T11:47:41.549712] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 1, SD 1)
+[2022-11-04T11:47:41.549715] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 1, SD 16777215)
+[2022-11-04T11:47:41.549716] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 130, SD 130)
+[2022-11-04T11:47:41.549732] [AMF] [amf_n2 ] [debug] Encoding NG_SETUP_RESPONSE ...
+[2022-11-04T11:47:41.549839] [AMF] [ngap   ] [debug] MCC 001, MNC 01
+[2022-11-04T11:47:41.550198] [AMF] [ngap   ] [debug] er.encoded (560)
+[2022-11-04T11:47:41.550204] [AMF] [sctp   ] [debug] [Socket 23, Assoc ID 225] Sending buffer 0x619000020380 of 560 bytes on stream 0 with ppid 60
+[2022-11-04T11:47:41.550261] [AMF] [sctp   ] [debug] Successfully sent 560 bytes on stream 0
+[2022-11-04T11:47:41.550265] [AMF] [amf_n2 ] [debug] Sending NG_SETUP_RESPONSE Ok
+[2022-11-04T11:47:41.550267] [AMF] [amf_n2 ] [debug] gNB with gNB_id 0xe000, assoc_id 225 has been attached to AMF
+[2022-11-04T11:47:41.550290] [AMF] [ngap   ] [debug] Free NGAP Message PDU
+[2022-11-04T11:47:41.550337] [AMF] [ngap   ] [debug] Free NGAP Message PDU
+[2022-11-04T11:47:57.978128] [AMF] [amf_app] [info ] 
+[2022-11-04T11:47:57.978149] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:57.978151] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:47:57.978153] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:47:57.978156] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gnb-rfsim1        |            001, 01             | 
+[2022-11-04T11:47:57.978158] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:57.978159] [AMF] [amf_app] [info ] 
+[2022-11-04T11:47:57.978160] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:57.978161] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:47:57.978164] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:47:57.978165] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:47:57.978166] [AMF] [amf_app] [info ] 
+[2022-11-04T11:48:17.978214] [AMF] [amf_app] [info ] 
+[2022-11-04T11:48:17.978233] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:17.978236] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:48:17.978237] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:48:17.978241] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gnb-rfsim1        |            001, 01             | 
+[2022-11-04T11:48:17.978243] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:17.978245] [AMF] [amf_app] [info ] 
+[2022-11-04T11:48:17.978246] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:17.978248] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:48:17.978249] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:48:17.978250] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:17.978251] [AMF] [amf_app] [info ] 
+[2022-11-04T11:48:37.978298] [AMF] [amf_app] [info ] 
+[2022-11-04T11:48:37.978318] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:37.978321] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:48:37.978322] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:48:37.978326] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gnb-rfsim1        |            001, 01             | 
+[2022-11-04T11:48:37.978328] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:37.978329] [AMF] [amf_app] [info ] 
+[2022-11-04T11:48:37.978331] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:37.978332] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:48:37.978333] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:48:37.978334] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:37.978335] [AMF] [amf_app] [info ] 
+[2022-11-04T11:48:57.978387] [AMF] [amf_app] [info ] 
+[2022-11-04T11:48:57.978406] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:57.978408] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:48:57.978409] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:48:57.978413] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gnb-rfsim1        |            001, 01             | 
+[2022-11-04T11:48:57.978415] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:57.978416] [AMF] [amf_app] [info ] 
+[2022-11-04T11:48:57.978417] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:57.978419] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:48:57.978420] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:48:57.978421] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:48:57.978422] [AMF] [amf_app] [info ] 
+[2022-11-04T11:49:17.978471] [AMF] [amf_app] [info ] 
+[2022-11-04T11:49:17.978492] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:17.978494] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:49:17.978496] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:49:17.978500] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gnb-rfsim1        |            001, 01             | 
+[2022-11-04T11:49:17.978501] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:17.978503] [AMF] [amf_app] [info ] 
+[2022-11-04T11:49:17.978504] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:17.978506] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:49:17.978507] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:49:17.978508] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:17.978509] [AMF] [amf_app] [info ] 
+[2022-11-04T11:49:34.599208] [AMF] [sctp   ] [debug] SCTP Association Change event received
+[2022-11-04T11:49:34.599240] [AMF] [sctp   ] [debug] Add new association with id (227)
+[2022-11-04T11:49:34.599258] [AMF] [sctp   ] [info ] ----------------------
+[2022-11-04T11:49:34.599260] [AMF] [sctp   ] [info ] Local addresses:
+[2022-11-04T11:49:34.599263] [AMF] [sctp   ] [info ]     - IPv4 Addr: 192.168.70.132
+[2022-11-04T11:49:34.599268] [AMF] [sctp   ] [info ] ----------------------
+[2022-11-04T11:49:34.599269] [AMF] [sctp   ] [info ] Peer addresses:
+[2022-11-04T11:49:34.599271] [AMF] [sctp   ] [info ]     - IPv4 Addr: 192.168.70.129
+[2022-11-04T11:49:34.599272] [AMF] [sctp   ] [info ] ----------------------
+[2022-11-04T11:49:34.599274] [AMF] [ngap   ] [debug] Ready to handle new NGAP SCTP association request (id 227)
+[2022-11-04T11:49:34.599277] [AMF] [ngap   ] [debug] Create a new gNB context with assoc_id (227)
+[2022-11-04T11:49:34.599286] [AMF] [sctp   ] [info ] ****[Assoc_id 227, Socket 24] Received a msg (length 58) from port 59929, on stream 0, PPID 60 ****
+[2022-11-04T11:49:34.599293] [AMF] [ngap   ] [debug] Handling SCTP payload from SCTP Server on assoc_id (227), stream_id (0), instreams (2), outstreams (2)
+[2022-11-04T11:49:34.599347] [AMF] [ngap   ] [debug] Decoded NGAP message, procedure code 21, present 1
+[2022-11-04T11:49:34.599568] [AMF] [ngap   ] [debug] Sending ITTI NG Setup Request message to TASK_AMF_N2
+[2022-11-04T11:49:34.599762] [AMF] [ngap   ] [debug] Received TAC 0x1
+[2022-11-04T11:49:34.599790] [AMF] [amf_n2 ] [info ] Received NGSetupRequest message, handling
+[2022-11-04T11:49:34.599805] [AMF] [amf_n2 ] [debug] Handle NG Setup Request...
+[2022-11-04T11:49:34.599807] [AMF] [amf_n2 ] [debug] Parameters: assoc_id 227, stream 0
+[2022-11-04T11:49:34.599810] [AMF] [amf_n2 ] [debug] Update gNB context with assoc id (227)
+[2022-11-04T11:49:34.599818] [AMF] [amf_n2 ] [debug] RAN Node Info, Global RAN Node ID: 0xe000, MCC 001, MNC 01
+[2022-11-04T11:49:34.599822] [AMF] [amf_n2 ] [debug] IE RanNodeName: gNB-OAI
+[2022-11-04T11:49:34.599824] [AMF] [amf_n2 ] [debug] IE DefaultPagingDRX: 0
+[2022-11-04T11:49:34.599841] [AMF] [amf_n2 ] [debug] TAC configured 1, TAC received 1
+[2022-11-04T11:49:34.599846] [AMF] [amf_n2 ] [debug] Common PLMN MCC 001, MNC 01
+[2022-11-04T11:49:34.599849] [AMF] [amf_n2 ] [debug] S-NSSAI from gNB (SST 1, SD 1)
+[2022-11-04T11:49:34.599850] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 1, SD 1)
+[2022-11-04T11:49:34.599853] [AMF] [amf_n2 ] [debug] Common S-NSSAI (SST 1, SD 1)
+[2022-11-04T11:49:34.599855] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 1, SD 16777215)
+[2022-11-04T11:49:34.599857] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 130, SD 130)
+[2022-11-04T11:49:34.599865] [AMF] [amf_n2 ] [debug] Encoding NG_SETUP_RESPONSE ...
+[2022-11-04T11:49:34.599908] [AMF] [ngap   ] [debug] MCC 001, MNC 01
+[2022-11-04T11:49:34.600257] [AMF] [ngap   ] [debug] er.encoded (560)
+[2022-11-04T11:49:34.600267] [AMF] [sctp   ] [debug] [Socket 24, Assoc ID 227] Sending buffer 0x619000020d80 of 560 bytes on stream 0 with ppid 60
+[2022-11-04T11:49:34.600381] [AMF] [sctp   ] [debug] Successfully sent 560 bytes on stream 0
+[2022-11-04T11:49:34.600388] [AMF] [amf_n2 ] [debug] Sending NG_SETUP_RESPONSE Ok
+[2022-11-04T11:49:34.600390] [AMF] [amf_n2 ] [debug] gNB with gNB_id 0xe000, assoc_id 227 has been attached to AMF
+[2022-11-04T11:49:34.600415] [AMF] [ngap   ] [debug] Free NGAP Message PDU
+[2022-11-04T11:49:34.600434] [AMF] [ngap   ] [debug] Free NGAP Message PDU
+[2022-11-04T11:49:37.978609] [AMF] [amf_app] [info ] 
+[2022-11-04T11:49:37.978637] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:37.978779] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:49:37.978787] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:49:37.978792] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gnb-rfsim1        |            001, 01             | 
+[2022-11-04T11:49:37.978796] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:37.978798] [AMF] [amf_app] [info ] 
+[2022-11-04T11:49:37.978799] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:37.978801] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:49:37.978802] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:49:37.978804] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:37.978806] [AMF] [amf_app] [info ] 
+[2022-11-04T11:49:57.978694] [AMF] [amf_app] [info ] 
+[2022-11-04T11:49:57.978714] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:57.978716] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:49:57.978718] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:49:57.978721] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gnb-rfsim1        |            001, 01             | 
+[2022-11-04T11:49:57.978723] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:57.978724] [AMF] [amf_app] [info ] 
+[2022-11-04T11:49:57.978725] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:57.978726] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:49:57.978728] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:49:57.978730] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:49:57.978731] [AMF] [amf_app] [info ] 
+[2022-11-04T11:50:17.978783] [AMF] [amf_app] [info ] 
+[2022-11-04T11:50:17.978803] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:17.978805] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:50:17.978807] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:50:17.978810] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gnb-rfsim1        |            001, 01             | 
+[2022-11-04T11:50:17.978812] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:17.978813] [AMF] [amf_app] [info ] 
+[2022-11-04T11:50:17.978814] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:17.978815] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:50:17.978816] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:50:17.978818] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:17.978819] [AMF] [amf_app] [info ] 
+[2022-11-04T11:50:37.978873] [AMF] [amf_app] [info ] 
+[2022-11-04T11:50:37.978894] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:37.978897] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:50:37.978898] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:50:37.978903] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gnb-rfsim1        |            001, 01             | 
+[2022-11-04T11:50:37.978905] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:37.978907] [AMF] [amf_app] [info ] 
+[2022-11-04T11:50:37.978909] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:37.978910] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:50:37.978912] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:50:37.978914] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:37.978915] [AMF] [amf_app] [info ] 
+[2022-11-04T11:50:57.978960] [AMF] [amf_app] [info ] 
+[2022-11-04T11:50:57.978980] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:57.978982] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:50:57.978984] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:50:57.978989] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gnb-rfsim1        |            001, 01             | 
+[2022-11-04T11:50:57.978990] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:57.978992] [AMF] [amf_app] [info ] 
+[2022-11-04T11:50:57.978993] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:57.978994] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:50:57.978995] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:50:57.978996] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:50:57.978999] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:01.534954] [AMF] [sctp   ] [debug] SCTP Shutdown Event received
+[2022-11-04T11:51:01.534980] [AMF] [ngap   ] [debug] Handle a SCTP Shutdown event (association id: 227)
+[2022-11-04T11:51:01.534983] [AMF] [ngap   ] [debug] Sending ITTI SCTP Shutdown event to TASK_AMF_N2
+[2022-11-04T11:51:01.535008] [AMF] [amf_n2 ] [info ] Received SCTP Shutdown Event, handling
+[2022-11-04T11:51:01.535024] [AMF] [amf_n2 ] [debug] Handle NG Shutdown ...
+[2022-11-04T11:51:01.535037] [AMF] [amf_n2 ] [debug] Remove gNB with association id 227, globalRanNodeId 0xe000
+[2022-11-04T11:51:01.535041] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:01.535044] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:01.535046] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:51:01.535047] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:51:01.535049] [AMF] [amf_app] [info ] |      -      |          -       |           -           |           -          |               -                |
+[2022-11-04T11:51:01.535050] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:01.535051] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:01.535052] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:01.535054] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:51:01.535055] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:51:01.535057] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:01.535058] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:06.235207] [AMF] [sctp   ] [debug] SCTP Association Change event received
+[2022-11-04T11:51:06.235237] [AMF] [sctp   ] [debug] Add new association with id (229)
+[2022-11-04T11:51:06.235253] [AMF] [sctp   ] [info ] ----------------------
+[2022-11-04T11:51:06.235255] [AMF] [sctp   ] [info ] Local addresses:
+[2022-11-04T11:51:06.235259] [AMF] [sctp   ] [info ]     - IPv4 Addr: 192.168.70.132
+[2022-11-04T11:51:06.235264] [AMF] [sctp   ] [info ] ----------------------
+[2022-11-04T11:51:06.235266] [AMF] [sctp   ] [info ] Peer addresses:
+[2022-11-04T11:51:06.235267] [AMF] [sctp   ] [info ]     - IPv4 Addr: 192.168.70.129
+[2022-11-04T11:51:06.235269] [AMF] [sctp   ] [info ] ----------------------
+[2022-11-04T11:51:06.235271] [AMF] [ngap   ] [debug] Ready to handle new NGAP SCTP association request (id 229)
+[2022-11-04T11:51:06.235276] [AMF] [ngap   ] [debug] Create a new gNB context with assoc_id (229)
+[2022-11-04T11:51:06.235285] [AMF] [sctp   ] [info ] ****[Assoc_id 229, Socket 25] Received a msg (length 58) from port 34487, on stream 0, PPID 60 ****
+[2022-11-04T11:51:06.235291] [AMF] [ngap   ] [debug] Handling SCTP payload from SCTP Server on assoc_id (229), stream_id (0), instreams (2), outstreams (2)
+[2022-11-04T11:51:06.235340] [AMF] [ngap   ] [debug] Decoded NGAP message, procedure code 21, present 1
+[2022-11-04T11:51:06.235565] [AMF] [ngap   ] [debug] Sending ITTI NG Setup Request message to TASK_AMF_N2
+[2022-11-04T11:51:06.235769] [AMF] [ngap   ] [debug] Received TAC 0x1
+[2022-11-04T11:51:06.235796] [AMF] [amf_n2 ] [info ] Received NGSetupRequest message, handling
+[2022-11-04T11:51:06.235813] [AMF] [amf_n2 ] [debug] Handle NG Setup Request...
+[2022-11-04T11:51:06.235815] [AMF] [amf_n2 ] [debug] Parameters: assoc_id 229, stream 0
+[2022-11-04T11:51:06.235818] [AMF] [amf_n2 ] [debug] Update gNB context with assoc id (229)
+[2022-11-04T11:51:06.235825] [AMF] [amf_n2 ] [debug] RAN Node Info, Global RAN Node ID: 0xe000, MCC 001, MNC 01
+[2022-11-04T11:51:06.235828] [AMF] [amf_n2 ] [debug] IE RanNodeName: gNB-OAI
+[2022-11-04T11:51:06.235830] [AMF] [amf_n2 ] [debug] IE DefaultPagingDRX: 0
+[2022-11-04T11:51:06.235847] [AMF] [amf_n2 ] [debug] TAC configured 1, TAC received 1
+[2022-11-04T11:51:06.235851] [AMF] [amf_n2 ] [debug] Common PLMN MCC 001, MNC 01
+[2022-11-04T11:51:06.235853] [AMF] [amf_n2 ] [debug] S-NSSAI from gNB (SST 1, SD 1)
+[2022-11-04T11:51:06.235855] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 1, SD 1)
+[2022-11-04T11:51:06.235858] [AMF] [amf_n2 ] [debug] Common S-NSSAI (SST 1, SD 1)
+[2022-11-04T11:51:06.235861] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 1, SD 16777215)
+[2022-11-04T11:51:06.235864] [AMF] [amf_n2 ] [debug] S-NSSAI from AMF (SST 130, SD 130)
+[2022-11-04T11:51:06.235871] [AMF] [amf_n2 ] [debug] Encoding NG_SETUP_RESPONSE ...
+[2022-11-04T11:51:06.235912] [AMF] [ngap   ] [debug] MCC 001, MNC 01
+[2022-11-04T11:51:06.236258] [AMF] [ngap   ] [debug] er.encoded (560)
+[2022-11-04T11:51:06.236264] [AMF] [sctp   ] [debug] [Socket 25, Assoc ID 229] Sending buffer 0x619000021780 of 560 bytes on stream 0 with ppid 60
+[2022-11-04T11:51:06.236313] [AMF] [sctp   ] [debug] Successfully sent 560 bytes on stream 0
+[2022-11-04T11:51:06.236317] [AMF] [amf_n2 ] [debug] Sending NG_SETUP_RESPONSE Ok
+[2022-11-04T11:51:06.236319] [AMF] [amf_n2 ] [debug] gNB with gNB_id 0xe000, assoc_id 229 has been attached to AMF
+[2022-11-04T11:51:06.236337] [AMF] [ngap   ] [debug] Free NGAP Message PDU
+[2022-11-04T11:51:06.236354] [AMF] [ngap   ] [debug] Free NGAP Message PDU
+[2022-11-04T11:51:17.979051] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:17.979073] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:17.979076] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:51:17.979079] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:51:17.979083] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:51:17.979084] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:17.979086] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:17.979088] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:17.979089] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:51:17.979090] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:51:17.979091] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:17.979093] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:37.979138] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:37.979160] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:37.979162] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:51:37.979164] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:51:37.979169] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:51:37.979171] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:37.979173] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:37.979175] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:37.979177] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:51:37.979178] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:51:37.979179] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:37.979180] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:57.979224] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:57.979248] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:57.979251] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:51:57.979252] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:51:57.979256] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:51:57.979258] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:57.979259] [AMF] [amf_app] [info ] 
+[2022-11-04T11:51:57.979260] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:57.979261] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:51:57.979263] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:51:57.979264] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:51:57.979265] [AMF] [amf_app] [info ] 
+[2022-11-04T11:52:17.979313] [AMF] [amf_app] [info ] 
+[2022-11-04T11:52:17.979336] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:17.979338] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:52:17.979339] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:52:17.979345] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:52:17.979347] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:17.979349] [AMF] [amf_app] [info ] 
+[2022-11-04T11:52:17.979351] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:17.979353] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:52:17.979354] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:52:17.979356] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:17.979357] [AMF] [amf_app] [info ] 
+[2022-11-04T11:52:37.979400] [AMF] [amf_app] [info ] 
+[2022-11-04T11:52:37.979421] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:37.979424] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:52:37.979426] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:52:37.979431] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:52:37.979433] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:37.979435] [AMF] [amf_app] [info ] 
+[2022-11-04T11:52:37.979436] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:37.979437] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:52:37.979438] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:52:37.979440] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:37.979441] [AMF] [amf_app] [info ] 
+[2022-11-04T11:52:57.979495] [AMF] [amf_app] [info ] 
+[2022-11-04T11:52:57.979524] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:57.979526] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:52:57.979528] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:52:57.979532] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:52:57.979533] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:57.979535] [AMF] [amf_app] [info ] 
+[2022-11-04T11:52:57.979536] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:57.979537] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:52:57.979539] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:52:57.979540] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:52:57.979542] [AMF] [amf_app] [info ] 
+[2022-11-04T11:53:17.979602] [AMF] [amf_app] [info ] 
+[2022-11-04T11:53:17.979624] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:17.979627] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:53:17.979628] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:53:17.979633] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:53:17.979635] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:17.979637] [AMF] [amf_app] [info ] 
+[2022-11-04T11:53:17.979639] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:17.979642] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:53:17.979643] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:53:17.979644] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:17.979645] [AMF] [amf_app] [info ] 
+[2022-11-04T11:53:37.979693] [AMF] [amf_app] [info ] 
+[2022-11-04T11:53:37.979715] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:37.979717] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:53:37.979719] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:53:37.979723] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:53:37.979725] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:37.979726] [AMF] [amf_app] [info ] 
+[2022-11-04T11:53:37.979728] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:37.979730] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:53:37.979732] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:53:37.979734] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:37.979735] [AMF] [amf_app] [info ] 
+[2022-11-04T11:53:57.979783] [AMF] [amf_app] [info ] 
+[2022-11-04T11:53:57.979806] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:57.979809] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:53:57.979810] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:53:57.979814] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:53:57.979816] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:57.979817] [AMF] [amf_app] [info ] 
+[2022-11-04T11:53:57.979819] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:57.979822] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:53:57.979824] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:53:57.979825] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:53:57.979827] [AMF] [amf_app] [info ] 
+[2022-11-04T11:54:17.979875] [AMF] [amf_app] [info ] 
+[2022-11-04T11:54:17.979898] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:17.979901] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:54:17.979902] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:54:17.979906] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:54:17.979908] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:17.979909] [AMF] [amf_app] [info ] 
+[2022-11-04T11:54:17.979910] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:17.979912] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:54:17.979913] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:54:17.979915] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:17.979916] [AMF] [amf_app] [info ] 
+[2022-11-04T11:54:37.979963] [AMF] [amf_app] [info ] 
+[2022-11-04T11:54:37.979984] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:37.979987] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:54:37.979989] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:54:37.979994] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:54:37.979997] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:37.979999] [AMF] [amf_app] [info ] 
+[2022-11-04T11:54:37.980000] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:37.980002] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:54:37.980003] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:54:37.980004] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:37.980005] [AMF] [amf_app] [info ] 
+[2022-11-04T11:54:57.980051] [AMF] [amf_app] [info ] 
+[2022-11-04T11:54:57.980074] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:57.980077] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:54:57.980078] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:54:57.980082] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:54:57.980084] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:57.980086] [AMF] [amf_app] [info ] 
+[2022-11-04T11:54:57.980089] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:57.980091] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:54:57.980092] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:54:57.980093] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:54:57.980094] [AMF] [amf_app] [info ] 
+[2022-11-04T11:55:17.980141] [AMF] [amf_app] [info ] 
+[2022-11-04T11:55:17.980162] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:17.980165] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:55:17.980166] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:55:17.980170] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:55:17.980172] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:17.980175] [AMF] [amf_app] [info ] 
+[2022-11-04T11:55:17.980177] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:17.980178] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:55:17.980180] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:55:17.980182] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:17.980183] [AMF] [amf_app] [info ] 
+[2022-11-04T11:55:37.980235] [AMF] [amf_app] [info ] 
+[2022-11-04T11:55:37.980258] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:37.980260] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:55:37.980262] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:55:37.980266] [AMF] [amf_app] [info ] |      1      |    Connected     |         0xe000       |         gNB-OAI        |            001, 01             | 
+[2022-11-04T11:55:37.980269] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:37.980271] [AMF] [amf_app] [info ] 
+[2022-11-04T11:55:37.980272] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:37.980274] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:55:37.980276] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:55:37.980277] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:37.980279] [AMF] [amf_app] [info ] 
+[2022-11-04T11:55:47.602516] [AMF] [sctp   ] [debug] SCTP Shutdown Event received
+[2022-11-04T11:55:47.602540] [AMF] [ngap   ] [debug] Handle a SCTP Shutdown event (association id: 229)
+[2022-11-04T11:55:47.602543] [AMF] [ngap   ] [debug] Sending ITTI SCTP Shutdown event to TASK_AMF_N2
+[2022-11-04T11:55:47.602568] [AMF] [amf_n2 ] [info ] Received SCTP Shutdown Event, handling
+[2022-11-04T11:55:47.602582] [AMF] [amf_n2 ] [debug] Handle NG Shutdown ...
+[2022-11-04T11:55:47.602593] [AMF] [amf_n2 ] [debug] Remove gNB with association id 229, globalRanNodeId 0xe000
+[2022-11-04T11:55:47.602596] [AMF] [amf_app] [info ] 
+[2022-11-04T11:55:47.602598] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:47.602600] [AMF] [amf_app] [info ] |----------------------------------------------------gNBs' information-------------------------------------------|
+[2022-11-04T11:55:47.602601] [AMF] [amf_app] [info ] |    Index    |      Status      |       Global ID       |       gNB Name       |               PLMN             |
+[2022-11-04T11:55:47.602603] [AMF] [amf_app] [info ] |      -      |          -       |           -           |           -          |               -                |
+[2022-11-04T11:55:47.602604] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:47.602606] [AMF] [amf_app] [info ] 
+[2022-11-04T11:55:47.602607] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:47.602608] [AMF] [amf_app] [info ] |----------------------------------------------------UEs' information--------------------------------------------|
+[2022-11-04T11:55:47.602609] [AMF] [amf_app] [info ] | Index |      5GMM state      |      IMSI        |     GUTI      | RAN UE NGAP ID | AMF UE ID |  PLMN   |Cell ID|
+[2022-11-04T11:55:47.602610] [AMF] [amf_app] [info ] |----------------------------------------------------------------------------------------------------------------|
+[2022-11-04T11:55:47.602612] [AMF] [amf_app] [info ] 

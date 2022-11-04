@@ -387,7 +387,7 @@ services:
         container_name: oai-gnb1
         environment: 
             RFSIMULATOR: server
-            USE_SA_TDD_MONO: 'yes'
+            USE_SA_FDD_MONO: 'yes'
             GNB_NAME: gnb-rfsim1
             TAC: 1
             MCC: '001'
